@@ -13,11 +13,11 @@
     <meta name="description" content="Designa Studio, a HTML5 / CSS3 template.">
     <meta name="author" content="Sylvain Lafitte, Web Designer, sylvainlafitte.com">
     
-    <title>bige 网页视觉设计</title>
+    <title>Pick up a good name</title>
     
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     
-    <link href='http://fonts.useso.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+    <!-- <link href='http://fonts.useso.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'> -->
     <link rel="stylesheet" href="<%=static_dir%>/css/style.css">
     
     <!--[if lt IE 9]>
@@ -35,10 +35,14 @@
             <nav class="fright">
                 <ul>
                     <li><a href="/" class="<%if(currentMenu == "home"){%>navactive<%}%>">首页</a></li>
-                    <li><a href="/index/news" class="<%if(currentMenu == "news"){%>navactive<%}%>">Blog</a></li>
+                </ul>
+                <ul>
+                    <li><a href="/index/news" class="<%if(currentMenu == "news"){%>navactive<%}%>">新闻</a></li>
                 </ul>
                 <ul>
                     <li><a href="/index/product" class="<%if(currentMenu == "product"){%>navactive<%}%>">案例</a></li>
+                </ul>
+                <ul>
                     <li><a href="/page/index/about" class="<%if(currentMenu == "about"){%>navactive<%}%>">关于</a></li>
                 </ul>
                 <ul>

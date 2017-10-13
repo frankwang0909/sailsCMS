@@ -9,8 +9,8 @@ module.exports = function(model, page_info, _find_info) {
     return new Promise(function(resolve, reject) {
         var paging = util._extend({
             current_page: 1, // 当前页
-            count: 0, // 总页数
-            limit: 10, // 每页数量
+            count: 2, // 总页数
+            limit: 2, // 每页数量
             skip:0
         }, page_info);
 

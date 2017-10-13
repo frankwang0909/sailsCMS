@@ -478,8 +478,8 @@ html[xmlns] .slides {display: block;}
 ul.page-numbers{float: right;overflow:hidden; display:block;}
 .page-numbers li {float:left;}
 .page-numbers li a{ display:block;padding:1em;text-decoration:none; color:#777;}
-.page-numbers li a:hover{ color:#444;}
-.page-numbers li .current{color: #0078CF;}
+.page-numbers li a:hover{color: #0078CF}
+.page-numbers li.current a{color: #0078CF;background-color: #ddd;}
 
 /* Comments*/
 .section-comment header{overflow: hidden; clear: both;}
